@@ -44,7 +44,7 @@ h1.big{font-weight:900;color:var(--ink);font-size:64px;line-height:1;letter-spac
 
 /* why banner */
 .why{display:flex;align-items:center;gap:16px;border:2px solid var(--teal);border-radius:16px;
- padding:14px 26px;margin:16px 0 6px;color:var(--ink);font-size:27px;font-weight:600;max-width:1760px;min-height:76px;}
+ padding:14px 26px;margin:46px 0 10px;color:var(--ink);font-size:27px;font-weight:600;max-width:1760px;min-height:76px;}
 .why span:not(.tri){white-space:nowrap;}
 .why .tri{color:#178089;flex:0 0 auto;}
 .why .tri svg{width:40px;height:40px;}
@@ -154,7 +154,7 @@ h1.big{font-weight:900;color:var(--ink);font-size:64px;line-height:1;letter-spac
 .fx2 .tc span{color:var(--ink);font-size:16px;font-weight:600;line-height:1.14;}
 
 /* ---------- pages 3-8 step pages ---------- */
-.stepbody{--accent:var(--teal);display:flex;flex-direction:column;justify-content:flex-start;padding-top:155px;padding-bottom:24px;}
+.stepbody{--accent:var(--teal);display:flex;flex-direction:column;justify-content:center;padding-top:50px;padding-bottom:40px;}
 .stepbody .flow{width:100%;}
 .stepbody .hbuild{width:100%;}
 .stephead{display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:24px;margin-top:6px;}
@@ -308,8 +308,8 @@ html,body{overflow:hidden;background:#0b1626;}
 .avatar{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:14px;flex:0 0 auto;letter-spacing:.02em;}
 .av-sb{background:#2F6FB0;} .av-bd{background:#1C9CA6;} .av-dc{background:#6C4FB0;} .av-pt{background:#2E9E7E;} .av-cl{background:#C4702E;} .av-cs{background:var(--navy);}
 .nvp .wslbl{font-size:12px;font-weight:800;letter-spacing:.12em;color:var(--muted);padding:2px 14px 8px;}
-.nvp a .cnt{margin-left:auto;background:#E1E8F0;color:var(--ink);font-size:13px;font-weight:800;border-radius:999px;padding:2px 9px;}
-.nvp a.on .cnt{background:rgba(255,255,255,.22);color:#fff;}
+.nvp a .cnt{margin-left:auto;width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:#1C9CA6;color:#fff;font-size:14px;font-weight:800;padding:0;}
+.nvp a.on .cnt{background:#fff;color:#0f2c4c;}
 .nvp .wsfoot{margin-top:auto;display:flex;align-items:center;gap:9px;padding:12px 14px 2px;color:var(--muted);font-size:14px;font-weight:600;}
 .dotonline{width:9px;height:9px;border-radius:50%;background:#28C840;box-shadow:0 0 0 3px rgba(40,200,64,.18);flex:0 0 auto;}
 .mrow{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;}
@@ -438,15 +438,15 @@ html,body{overflow:hidden;background:#0b1626;}
 /* slide 1 triage box */
 .tri-cap{display:flex;align-items:center;justify-content:center;gap:10px;color:var(--muted);font-weight:800;font-size:17px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;}
 .tri-cap .tm{background:var(--navy);color:#fff;border-radius:7px;padding:4px 11px;font-size:15px;letter-spacing:.04em;}
-.tri-buckets{display:flex;flex-direction:column;gap:14px;}
+.tri-buckets{display:flex;flex-direction:column;gap:12px;}
 .tri-b{background:#fff;border:1px solid var(--line);border-top-width:6px;border-radius:14px;padding:16px 20px;box-shadow:0 8px 22px rgba(15,44,76,.10);}
 .tri-b.b1{border-top-color:#E8743B;} .tri-b.b2{border-top-color:#2F6FB0;} .tri-b.b3{border-top-color:#1C9CA6;}
-.tri-h{display:flex;align-items:center;gap:10px;font-weight:900;font-size:18px;letter-spacing:.07em;text-transform:uppercase;margin-bottom:9px;}
+.tri-h{display:flex;align-items:center;gap:10px;font-weight:900;font-size:20px;letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px;}
 .tri-b.b1 .tri-h{color:#C4572A;} .tri-b.b2 .tri-h{color:#2560A0;} .tri-b.b3 .tri-h{color:var(--tealD);}
 .tri-h .dot{width:12px;height:12px;border-radius:50%;flex:0 0 auto;}
 .tri-b.b1 .dot{background:#E8743B;} .tri-b.b2 .dot{background:#2F6FB0;} .tri-b.b3 .dot{background:#1C9CA6;}
-.tri-h .n{margin-left:auto;background:#EEF0F2;color:var(--ink);font-size:15px;font-weight:800;border-radius:999px;padding:2px 11px;letter-spacing:0;}
-.tri-i{display:flex;align-items:flex-start;gap:11px;color:var(--ink);font-size:21px;font-weight:600;line-height:1.24;padding:4px 0;}
+.tri-h .n{margin-left:auto;display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:#64748B;color:#fff;font-size:21px;font-weight:900;letter-spacing:0;padding:0;box-shadow:0 3px 8px rgba(15,44,76,.18);} .tri-b.b1 .tri-h .n{background:#E8743B;} .tri-b.b2 .tri-h .n{background:#2F6FB0;} .tri-b.b3 .tri-h .n{background:#1C9CA6;}
+.tri-i{display:flex;align-items:flex-start;gap:11px;color:var(--ink);font-size:24px;font-weight:600;line-height:1.22;padding:3px 0;}
 .tri-i::before{content:"";width:7px;height:7px;border-radius:50%;background:#C9D2DB;margin-top:9px;flex:0 0 auto;}
 /* fill + balance slide 1; triage as its own clean panel */
 .hookbody{display:flex;align-items:center;justify-content:center;padding:34px 60px 24px;height:auto;top:130px;bottom:70px;}
@@ -454,9 +454,9 @@ html,body{overflow:hidden;background:#0b1626;}
 .hook{justify-content:flex-start;height:auto;flex:1;min-width:0;}
 .herodiag.triage{flex:0 0 540px;background:var(--rail);border:1px solid var(--line);border-radius:22px;padding:26px 24px;box-shadow:0 14px 34px rgba(15,44,76,.12);}
 .herodiag.triage .tri-cap{justify-content:flex-start;margin-bottom:18px;}
-.herodiag.triage .tri-buckets{flex:1;display:flex;flex-direction:column;gap:14px;}
+.herodiag.triage .tri-buckets{flex:1;display:flex;flex-direction:column;gap:12px;}
 .herodiag.triage .tri-b{flex:1;display:flex;flex-direction:column;justify-content:center;padding:16px 20px;}
-.herodiag.triage .tri-i{font-size:21px;}
+.herodiag.triage .tri-i{font-size:24px;} .tri-i .tt{flex:1;min-width:0;} .tri-i .tt b{font-weight:800;} .qn{flex:0 0 auto;align-self:flex-start;margin-left:10px;min-width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;background:#EEF0F2;color:var(--muted);font-weight:800;font-size:15px;border-radius:999px;}
 </style></head>
 <body>
 <div class="stage" id="stage">
@@ -472,8 +472,8 @@ html,body{overflow:hidden;background:#0b1626;}
 <div class="hookinner">
 <div class="hook">
 <div class="hookkick">Built for Shane Brass</div>
-<h1 class="hookh1">It's 9 PM. You've billed <em>11 hours</em> today.<br>You still haven't touched your own business.</h1>
-<div class="hooksub">You're not short on hours, you're the bottleneck:<br>every thread, every follow-up, every proposal waits on you.</div>
+<h1 class="hookh1">It's 9 PM. You've billed <em>11 hours</em> today,<br>all federal.<br>The proposal due Friday is still half-written,<br>and two follow-ups never went out.</h1>
+<div class="hooksub">You're not short on hours. You're the bottleneck,<br>and the work that pays is what slips.</div>
 <div class="hookrow">
 <div class="hookchip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" fill="none"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" fill="none"/></svg>Reading every thread</div>
 <div class="hookchip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 10.5l7 2.5 2.5 7z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" fill="none"/><path d="M21 3 10 14" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" fill="none"/></svg>Writing every follow-up</div>
@@ -486,19 +486,19 @@ html,body{overflow:hidden;background:#0b1626;}
 <div class="tri-buckets">
 <div class="tri-b b1">
 <div class="tri-h"><span class="dot"></span>Do first<span class="n">3</span></div>
-<div class="tri-i">Approve the partner teaming proposal</div>
-<div class="tri-i">Decision: pricing on the new RFP</div>
-<div class="tri-i">Phase 2 sign-off, due Thursday</div>
+<div class="tri-i"><span class="tt"><b>Teaming proposal:</b> approve before the agreement</span><span class="qn">1</span></div>
+<div class="tri-i"><span class="tt"><b>RFP pricing:</b> your call to make</span><span class="qn">1</span></div>
+<div class="tri-i"><span class="tt"><b>Phase 2:</b> sign-off due Thursday</span><span class="qn">1</span></div>
 </div>
 <div class="tri-b b2">
 <div class="tri-h"><span class="dot"></span>Review &amp; send<span class="n">6</span></div>
-<div class="tri-i">Five follow-ups, drafted in your voice</div>
-<div class="tri-i">RFP brief, ready for your BD lead</div>
+<div class="tri-i"><span class="tt"><b>Follow-ups:</b> drafted in your voice</span><span class="qn">5</span></div>
+<div class="tri-i"><span class="tt"><b>RFP brief:</b> ready for your BD lead</span><span class="qn">1</span></div>
 </div>
 <div class="tri-b b3">
 <div class="tri-h"><span class="dot"></span>Handled for you<span class="n">14</span></div>
-<div class="tri-i">Calls transcribed, inbox triaged</div>
-<div class="tri-i">Every deadline and contract phase tracked</div>
+<div class="tri-i"><span class="tt"><b>Calls:</b> transcribed and summarized</span><span class="qn">6</span></div>
+<div class="tri-i"><span class="tt"><b>Inbox:</b> triaged, deadlines tracked</span><span class="qn">8</span></div>
 </div>
 </div>
 </div>
@@ -517,7 +517,7 @@ html,body{overflow:hidden;background:#0b1626;}
 <span class="kicker">Scenario 01 &middot; 6:00 PM</span>
 <div class="stephead"><h1 class="big">Five calls today. Zero notes.</h1></div>
 <div class="stepsub">Tonight you would write them from memory. Or not at all.</div>
-<div class="why"><span class="tri"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M10 20a2 2 0 0 0 4 0" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><span>The details are still in your head, the follow-ups still unwritten, and two will slip through by morning.</span></div>
+<div class="why"><span class="tri"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M10 20a2 2 0 0 0 4 0" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><span>The details are still in your head, the follow-ups still unwritten, and by morning two have slipped. One was the client ready to sign.</span></div>
 <div class="flow three">
 <div class="fcard"><div class="circ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" fill="none"/></svg></div><h4>It hears every call</h4><p>Teams, Zoom or the phone, transcribed and summarized as you go.</p></div>
 <div class="fcard"><div class="circ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 10.5l7 2.5 2.5 7z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" fill="none"/><path d="M21 3 10 14" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" fill="none"/></svg></div><h4>It drafts all five</h4><p>Every follow-up written in your voice, with the owners and the dates.</p></div>
@@ -533,12 +533,12 @@ html,body{overflow:hidden;background:#0b1626;}
 </div>
 <div class="accentbar">
 </div>
-<div class="tfoot">The proposal grind, scoped before the weekend starts.</div>
+<div class="tfoot">A proposal that lands late is the deal you lose.</div>
 <div class="body stepbody">
 <span class="kicker">Scenario 02 &middot; Proposal due Monday</span>
 <div class="stephead"><h1 class="big">They want a proposal. By Monday.</h1></div>
 <div class="stepsub">Scope, phases and pricing, assembled by hand after everyone else goes home.</div>
-<div class="why"><span class="tri"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M10 20a2 2 0 0 0 4 0" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><span>An RFP, an SOW, a scoped estimate: the work that actually pays, landing when you are already buried.</span></div>
+<div class="why"><span class="tri"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M10 20a2 2 0 0 0 4 0" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><span>An RFP, an SOW, a scoped estimate: the work that actually pays, landing when you are already buried. Two days late, and they have already called someone else.</span></div>
 <div class="flow three">
 <div class="fcard"><div class="circ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" fill="none"/><path d="M14 3v4h4M9 12h6M9 16h6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" fill="none"/></svg></div><h4>It drafts the scope</h4><p>Phases and deliverables, pulled from the call and the thread into a first-pass SOW.</p></div>
 <div class="fcard"><div class="circ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3v18M5 4h11l-2 4 2 4H5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><h4>It flags the pricing calls</h4><p>The scoping and pricing judgments only you can make, surfaced up front.</p></div>
@@ -581,7 +581,7 @@ html,body{overflow:hidden;background:#0b1626;}
 <div class="stephead">
 <h1 class="big">Meet CoreSignal</h1>
 </div>
-<div class="stepsub">Your AI-assisted command center: mail, calls, texts and calendar in one window, with an assistant that already knows the context.</div>
+<div class="stepsub">Your AI-assisted command center: mail, calls, texts and calendar in one window, with an assistant that already knows the context. Everything that used to live in your head and your inbox, now drafting for you.</div>
 <div class="cswin">
 <div class="bar">
 <i style="background:#FF5F57">
@@ -802,7 +802,7 @@ html,body{overflow:hidden;background:#0b1626;}
 <div class="p2head">
 <h1 class="big">A Day With CoreSignal</h1>
 </div>
-<div class="sub">Same calls, same clients, same bids. Half the hours.</div>
+<div class="sub">Same calls, same clients, same bids. Half the hours, and nothing slips.</div>
 </div>
 <div class="seq2 five">
 <div class="seqband">
@@ -949,7 +949,7 @@ html,body{overflow:hidden;background:#0b1626;}
 <div class="ctamid">
 <span class="kick">Your next step</span>
 <h2>You asked for a quote. Here it is.</h2>
-<div class="cs">Live on your Mac in one week. If it doesn’t give you back 10 hours a week, fire me.</div>
+<div class="cs">Live on your Mac in one week. Ten hours a week back, and the deals you were losing to a slow reply, kept. If it doesn't, fire me.</div>
 <div class="ctaprice">
 <span>$5K a month</span>
 <span>Setup included</span>
